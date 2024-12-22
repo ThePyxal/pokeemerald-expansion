@@ -23,7 +23,7 @@ const struct Tileset gTileset_KantoGeneral =
 const struct Tileset gTileset_BuildingKanto =
 {
     .isCompressed = TRUE,
-    .isSecondary = TRUE,
+    .isSecondary = FALSE,
     .tiles = gTilesetTiles_InsideBuildingKanto,
     .palettes = gTilesetPalettes_InsideBuildingKanto,
     .metatiles = gMetatiles_InsideBuildingKanto,
