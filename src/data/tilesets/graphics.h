@@ -3,7 +3,7 @@ const u32 gTilesetTiles_GeneralKanto[] = INCBIN_U32("data/tilesets/primary/gener
 const u16 gTilesetPalettes_GeneralKanto[][16] = 
 {
     INCBIN_U16("data/tilesets/primary/general_kanto/palettes/00.gbapal"),
-    INCBIN_U16("data/tilesets/primary/general_kanto/palettes/01.gbapal"),`
+    INCBIN_U16("data/tilesets/primary/general_kanto/palettes/01.gbapal"),
     INCBIN_U16("data/tilesets/primary/general_kanto/palettes/02.gbapal"),
     INCBIN_U16("data/tilesets/primary/general_kanto/palettes/03.gbapal"),
     INCBIN_U16("data/tilesets/primary/general_kanto/palettes/04.gbapal"),
