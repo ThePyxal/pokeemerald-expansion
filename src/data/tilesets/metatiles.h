@@ -1,6 +1,12 @@
 const u16 gMetatiles_General[] = INCBIN_U16("data/tilesets/primary/general/metatiles.bin");
 const u16 gMetatileAttributes_General[] = INCBIN_U16("data/tilesets/primary/general/metatile_attributes.bin");
 
+const u16 gMetatiles_GeneralKanto[] = INCBIN_U16("data/tilesets/primary/general_kanto/metatiles.bin");
+const u16 gMetatileAttributes_GeneralKanto[] = INCBIN_U16("data/tilesets/primary/general_kanto/metatile_attributes.bin");
+
+const u16 gMetatiles_InsideBuildingKanto[] = INCBIN_U16("data/tilesets/primary/building_kanto/metatiles.bin");
+const u16 gMetatileAttributes_InsideBuildingKanto[] = INCBIN_U16("data/tilesets/primary/building_kanto/metatile_attributes.bin");
+
 const u16 gMetatiles_Petalburg[] = INCBIN_U16("data/tilesets/secondary/petalburg/metatiles.bin");
 const u16 gMetatileAttributes_Petalburg[] = INCBIN_U16("data/tilesets/secondary/petalburg/metatile_attributes.bin");
 

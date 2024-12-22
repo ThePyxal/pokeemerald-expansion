@@ -9,6 +9,28 @@ const struct Tileset gTileset_General =
     .callback = InitTilesetAnim_General,
 };
 
+const struct Tileset gTileset_KantoGeneral =
+{
+    .isCompressed = TRUE,
+    .isSecondary = FALSE,
+    .tiles = gTilesetTiles_GeneralKanto,
+    .palettes = gTilesetPalettes_GeneralKanto,
+    .metatiles = gMetatiles_GeneralKanto,
+    .metatileAttributes = gMetatileAttributes_GeneralKanto,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_BuildingKanto =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_InsideBuildingKanto,
+    .palettes = gTilesetPalettes_InsideBuildingKanto,
+    .metatiles = gMetatiles_InsideBuildingKanto,
+    .metatileAttributes = gMetatileAttributes_InsideBuildingKanto,
+    .callback = NULL,
+};
+
 const struct Tileset gTileset_Petalburg =
 {
     .isCompressed = TRUE,
