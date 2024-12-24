@@ -77,8 +77,8 @@
       ],
       "encounters": [
         {
-          "map": "MAP_STARBIRTHHIKE",
-          "base_label": "gStarbirthHike",
+          "map": "MAP_ROUTE101",
+          "base_label": "gRoute101",
           "land_mons": {
             "encounter_rate": 20,
             "mons": [
