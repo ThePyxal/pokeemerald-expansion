@@ -2366,7 +2366,7 @@
       "name": "InsideOfTruck_Layout",
       "width": 5,
       "height": 5,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_KantoGeneral",
       "secondary_tileset": "gTileset_InsideOfTruck",
       "border_filepath": "data/layouts/InsideOfTruck/border.bin",
       "blockdata_filepath": "data/layouts/InsideOfTruck/map.bin"

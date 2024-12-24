@@ -6,7 +6,7 @@ const struct Tileset gTileset_General =
     .palettes = gTilesetPalettes_General,
     .metatiles = gMetatiles_General,
     .metatileAttributes = gMetatileAttributes_General,
-    .callback = InitTilesetAnim_General,
+    .callback = NULL,
 };
 
 const struct Tileset gTileset_KantoGeneral =
@@ -17,7 +17,7 @@ const struct Tileset gTileset_KantoGeneral =
     .palettes = gTilesetPalettes_GeneralKanto,
     .metatiles = gMetatiles_GeneralKanto,
     .metatileAttributes = gMetatileAttributes_GeneralKanto,
-    .callback = NULL,
+    .callback = InitTilesetAnim_General,
 };
 
 const struct Tileset gTileset_BuildingKanto =
